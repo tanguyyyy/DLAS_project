@@ -15,7 +15,7 @@ This repository is a modified version of: https://github.com/CorentinJ/Real-Time
 5. Install the remaining requirements with `pip install -r requirements.txt`
 
 ### 2. (Optional) Download Pretrained Models
-Pretrained models are now downloaded automatically. If this doesn't work for you, you can manually download them [here](https://github.com/CorentinJ/Real-Time-Voice-Cloning/wiki/Pretrained-models).
+Download them [here](https://github.com/CorentinJ/Real-Time-Voice-Cloning/wiki/Pretrained-models) and place them is the saved_models file.
 
 ### 3. (Optional) Test Configuration
 Before you download any dataset, you can begin by testing your configuration with:

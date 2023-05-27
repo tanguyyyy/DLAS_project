@@ -394,7 +394,8 @@ class Toolbox:
         elif self.ui.selected_language.currentText()=="en-EN":
             translated_text = text
         else:
-            auth_key="d014492b-c188-dd4d-0d35-391ec72f1c44:fx"
+            with open(".\deepl_key.txt","r") as file:
+                auth_key=file.read()
             translator = deepl.Translator(auth_key) 
             result = translator.translate_text(text, target_lang="EN-US") 
             translated_text = result.text           

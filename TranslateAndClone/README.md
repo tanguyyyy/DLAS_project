@@ -13,6 +13,8 @@ This repository is a modified version of: https://github.com/CorentinJ/Real-Time
 3. Install [ffmpeg](https://ffmpeg.org/download.html#get-packages). This is necessary for reading audio files.
 4. Install [PyTorch](https://pytorch.org/get-started/locally/). Pick the latest stable version, your operating system, your package manager (pip by default) and finally pick any of the proposed CUDA versions if you have a GPU, otherwise pick CPU. Run the given command.
 5. Install the remaining requirements with `pip install -r requirements.txt`
+6. Create a Deepl account and get your authentification key:https://www.deepl.com/docs-api
+7. Put your Deepl key authentification in the deepl_key.txt file
 
 ### 2. (Optional) Download Pretrained Models
 Download them [here](https://github.com/CorentinJ/Real-Time-Voice-Cloning/wiki/Pretrained-models) and place them is the saved_models file.

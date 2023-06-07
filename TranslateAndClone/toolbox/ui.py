@@ -73,7 +73,7 @@ class UI(QDialog):
         # Draw the spectrogram
         spec_ax.clear()
         if spec is not None:
-            spec_ax.imshow(spec, aspect="auto", interpolation="none")
+            spec_ax.imshow(np.flip(spec,axis=0), aspect="auto", interpolation="none")
             spec_ax.set_title("mel spectrogram")
 
         spec_ax.set_xticks([])
